@@ -17,6 +17,7 @@ def long_planeteer_calls(calls)
     ret = true 
     end
   end
+  return ret
 end
   
 
