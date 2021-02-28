@@ -6,6 +6,10 @@ def roll_call_dwarves(list)
 end
 
 def summon_captain_planet(array)
+<<<<<<< HEAD
+=======
+ array = ["carrot", "cucumber", "pepper", "apple", "banana", "orange"]
+>>>>>>> 18f52e590bab97904d2aed6e9e116fc960c2a1d4
  array.each {|x| x.capitalize! }
  array.collect {|array| array + "!"}
 end
